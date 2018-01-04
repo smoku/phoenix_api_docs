@@ -8,8 +8,8 @@ defmodule PhoenixApiDocs.Mixfile do
      version: @version,
      elixir: "~> 1.0",
      description: "PhoenixApiDocs generates API documentation from annotations in controllers actions and tests cases.",
-     package: package,
-     deps: deps]
+     package: package(),
+     deps: deps()]
   end
 
   # Configuration for the OTP application
